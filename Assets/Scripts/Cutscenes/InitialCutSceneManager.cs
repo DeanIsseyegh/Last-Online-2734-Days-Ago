@@ -26,6 +26,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     private bool _canPlayerMove;
     private int _playerPrefsHasStarted;
     private bool _hasFinalDialogueStarted;
+    private bool _shouldPlayInitalCutscene;
 
     enum CutsceneState
     {
@@ -55,6 +56,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         {
             PlayerPrefs.SetInt("HasStarted", 1);
             _playerController.isControlsEnabled = false;
+            _shouldPlayInitalCutscene = true;
+            _cutsceneState = CutsceneState.INITIAL_WALK;
         }
         else
         {
@@ -76,7 +79,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
             }
         }
 
-        if (PlayerPrefs.GetInt("HasStarted") != 0) return;
+        if (!_shouldPlayInitalCutscene) return;
 
         if (_cutsceneState == CutsceneState.INITIAL_WALK)
         {
@@ -84,7 +87,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
             if (Vector2.Distance(player.transform.position, firstWalkToPoint.transform.position) > 0.1f ||
                 initialWalkTimeSinceStarted >= 1.5f)
             {
-                _playerController.dir = Vector2.down * Time.deltaTime;
+                _playerController.dir = Vector2.right * Time.deltaTime;
             }
             else
             {

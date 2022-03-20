@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7150464cf857ed2449d33d48f061b238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossMaxHealth: 1
+  bossMaxHealth: 3
   bossHealthUi: {fileID: 1766391633}
   bossSceneManager: {fileID: 276386214}
 --- !u!1 &1369950215
