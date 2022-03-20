@@ -11,6 +11,7 @@ public class FishingMiniGame : MonoBehaviour
     Transform topPivot, bottomPivot;
     public GameObject fish;
     [SerializeField] GameObject[] fishes;
+    [SerializeField] FishingSceneManager fishSceneManager;
 
     float fishPosition, fishDestination;
 
@@ -126,7 +127,7 @@ public class FishingMiniGame : MonoBehaviour
         {
             winText.gameObject.SetActive(true);
             pause = true;
-            StartCoroutine(GoBackToMainHub());
+            fishSceneManager.OnWin();
         }
         else
         {
@@ -137,7 +138,7 @@ public class FishingMiniGame : MonoBehaviour
 
     IEnumerator GoBackToMainHub()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(5f);
         SceneManager.LoadScene("Main Hub");
     }
 

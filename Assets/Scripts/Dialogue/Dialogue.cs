@@ -7,7 +7,7 @@ using UnityEngine.Serialization;
 
 public class Dialogue : MonoBehaviour
 {
-    private NPCConversation _conversation;
+    public NPCConversation _conversation;
 
     private ConversationManager _conversationManager;
 
@@ -16,12 +16,6 @@ public class Dialogue : MonoBehaviour
     {
         _conversation = GetComponent<NPCConversation>();
         _conversationManager = ConversationManager.Instance;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -34,6 +28,7 @@ public class Dialogue : MonoBehaviour
 
     public void StartConvo()
     {
+        Debug.Log("Starting convo");
         _conversationManager.StartConversation(_conversation);
     }
 }

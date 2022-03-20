@@ -1,6 +1,8 @@
+using DialogueEditor;
 using Player;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
@@ -11,6 +13,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private GameObject friendsIcon;
     [SerializeField] private GameObject friendsArea;
     [SerializeField] private Dialogue legendaryWarriorFirstDialogue;
+    [SerializeField] private Dialogue legendaryWarriorEndingDialogue;
     [SerializeField] private GameObject transitionToFish;
 
     private PlayerController _playerController;
@@ -22,6 +25,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     private bool _hasClickedOnlineFriend;
     private bool _canPlayerMove;
     private int _playerPrefsHasStarted;
+    private bool _hasFinalDialogueStarted;
 
     enum CutsceneState
     {
@@ -37,14 +41,19 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         _playerController = player.GetComponent<PlayerController>();
     }
 
+    private void ConversationEnd()
+    {
+        SceneManager.LoadScene("EndScene");
+    }
+
     // Start is called before the first frame update
     void Start()
     {
         _playerPrefsHasStarted = PlayerPrefs.GetInt("HasStarted", 0);
-        PlayerPrefs.SetInt("HasStarted", _playerPrefsHasStarted + 1);
 
         if (_playerPrefsHasStarted == 0)
         {
+            PlayerPrefs.SetInt("HasStarted", 1);
             _playerController.isControlsEnabled = false;
         }
         else
@@ -56,8 +65,19 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     // Update is called once per frame
     void Update()
     {
-        if (_playerPrefsHasStarted != 0) return;
-        // if (PlayerPrefs.GetInt("HasStarted") )
+        if (PlayerPrefs.GetInt("HasWonFishing") >= 1 && PlayerPrefs.GetInt("HasWonCombat") >= 1 && PlayerPrefs.GetInt("HasStarted") >= 1)
+        {
+            if (!_hasFinalDialogueStarted)
+            {
+                _hasFinalDialogueStarted = true;
+                legendaryWarriorEndingDialogue.StartConvo();
+                _playerController.isControlsEnabled = false;
+                ConversationManager.OnConversationEnded += ConversationEnd;
+            }
+        }
+
+        if (PlayerPrefs.GetInt("HasStarted") != 0) return;
+
         if (_cutsceneState == CutsceneState.INITIAL_WALK)
         {
             initialWalkTimeSinceStarted += Time.deltaTime;

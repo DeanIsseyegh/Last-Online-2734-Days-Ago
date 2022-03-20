@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using DialogueEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BossSceneManager : MonoBehaviour
 {
@@ -40,5 +41,13 @@ public class BossSceneManager : MonoBehaviour
         // winTitle.SetActive(true);
         ConversationManager.Instance.StartConversation(endingDialgoue);
         mainHubTransition.SetActive(true);
+        PlayerPrefs.SetInt("HasWonCombat", 1);
+        StartCoroutine(GoBackToMainHub());
+    }
+    
+    IEnumerator GoBackToMainHub()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Main Hub");
     }
 }

@@ -216,7 +216,7 @@ GameObject:
   - component: {fileID: 276386213}
   - component: {fileID: 276386214}
   m_Layer: 0
-  m_Name: SceneManager
+  m_Name: BossSceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7150464cf857ed2449d33d48f061b238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bossMaxHealth: 3
+  bossMaxHealth: 1
   bossHealthUi: {fileID: 1766391633}
   bossSceneManager: {fileID: 276386214}
 --- !u!1 &1369950215
