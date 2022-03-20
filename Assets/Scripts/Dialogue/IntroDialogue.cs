@@ -3,9 +3,11 @@ using System.Collections;
 using System.Collections.Generic;
 using DialogueEditor;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class IntroDialogue : MonoBehaviour
 {
+    [FormerlySerializedAs("_font")] [SerializeField] private TMPro.TMP_FontAsset font;
     private NPCConversation _conversation;
 
     private ConversationManager _conversationManager;
