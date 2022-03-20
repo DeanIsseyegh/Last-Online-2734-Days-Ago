@@ -1,11 +1,32 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using DialogueEditor;
 using UnityEngine;
 
 public class BossSceneManager : MonoBehaviour
 {
     [SerializeField] private GameObject winTitle;
-    // Start is called before the first frame update
+    [SerializeField] private NPCConversation startingDialogue;
+    [SerializeField] private NPCConversation endingDialgoue;
+    [SerializeField] private GameObject mainHubTransition;
+    
+    private bool _hasStartedStartingDialgoue;
+
+    private void Start()
+    {
+        
+    }
+
+    public void Update()
+    {
+        if (!_hasStartedStartingDialgoue)
+        {
+            _hasStartedStartingDialgoue = true;
+            ConversationManager.Instance.StartConversation(startingDialogue);
+        }
+    }
+
     public void WinBossFight()
     {
         foreach (var o in GameObject.FindGameObjectsWithTag("Projectile"))
@@ -16,6 +37,8 @@ public class BossSceneManager : MonoBehaviour
         GameObject boss = GameObject.FindWithTag("Boss");
         Destroy(boss);
         
-        winTitle.SetActive(true);
+        // winTitle.SetActive(true);
+        ConversationManager.Instance.StartConversation(endingDialgoue);
+        mainHubTransition.SetActive(true);
     }
 }

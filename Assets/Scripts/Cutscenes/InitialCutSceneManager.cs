@@ -11,6 +11,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private GameObject friendsIcon;
     [SerializeField] private GameObject friendsArea;
     [SerializeField] private Dialogue legendaryWarriorFirstDialogue;
+    [SerializeField] private GameObject transitionToFish;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -20,6 +21,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     private bool _hasClickedFriendsIcon;
     private bool _hasClickedOnlineFriend;
     private bool _canPlayerMove;
+    private int _playerPrefsHasStarted;
 
     enum CutsceneState
     {
@@ -38,13 +40,23 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     // Start is called before the first frame update
     void Start()
     {
-        _playerController.isControlsEnabled = false;
-        PlayerPrefs.SetInt("HasStarted", 1);
+        _playerPrefsHasStarted = PlayerPrefs.GetInt("HasStarted", 0);
+        PlayerPrefs.SetInt("HasStarted", _playerPrefsHasStarted + 1);
+
+        if (_playerPrefsHasStarted == 0)
+        {
+            _playerController.isControlsEnabled = false;
+        }
+        else
+        {
+            transitionToFish.SetActive(true);
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (_playerPrefsHasStarted != 0) return;
         // if (PlayerPrefs.GetInt("HasStarted") )
         if (_cutsceneState == CutsceneState.INITIAL_WALK)
         {
@@ -58,7 +70,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
             {
                 _playerController.dir = Vector2.zero;
                 subscriptionPopup.SetActive(true);
-                
+
                 _cutsceneState = CutsceneState.SUBSCRIPTION_POPUP;
             }
         }
@@ -102,24 +114,29 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
 
         if (_cutsceneState == CutsceneState.DIALOGUE_STARTED)
         {
-            //Do nothing, wait for void OnDialogueEnd() to be called
+            //End of cutscene should have triggered this, but due to bug with dialogue editor its not possible
+            _canPlayerMove = true;
+            _playerController.isControlsEnabled = true;
+            transitionToFish.SetActive(true);
         }
     }
 
     public void OnDialogueEnd()
     {
         _canPlayerMove = true;
+        _playerController.isControlsEnabled = true;
     }
-    
+
     public void OnOnlineFriendClick()
     {
         _hasClickedOnlineFriend = true;
     }
+
     public void OnFriendsIconClick()
     {
         _hasClickedFriendsIcon = true;
     }
-    
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (eventData.button == PointerEventData.InputButton.Left)

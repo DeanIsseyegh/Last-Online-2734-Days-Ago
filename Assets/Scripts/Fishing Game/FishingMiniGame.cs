@@ -22,14 +22,14 @@ public class FishingMiniGame : MonoBehaviour
 
     [SerializeField] Transform hook;
     float hookPosition;
-    [SerializeField] float hookSize = 0.1f;
+    [SerializeField] float hookSize = 0.2f;
     [SerializeField] float hookPower = 5f;
     float hookProgress;
     float hookPullVelocity;
-    [SerializeField] float hookPullPower = 0.01f, hookGravityPower = 0.005f, hookProgressDegradationPower = 0.1f;
+    [SerializeField] float hookPullPower = 0.01f, hookGravityPower = 0.005f, hookProgressDegradationPower = 0.05f;
     [SerializeField] SpriteRenderer hookSpriteRenderer;
     [SerializeField] Transform progressBarContainer;
-    [SerializeField] float failTimer = 10f;//10 seconds
+    [SerializeField] float failTimer = 15f;//10 seconds
     [SerializeField] Text failTimertext, winText, loseText;
     bool pause = false;
 
@@ -56,7 +56,7 @@ public class FishingMiniGame : MonoBehaviour
         else
         {
             timerMultiplier /= 2;
-            smoothMotion /= 2;
+            smoothMotion /= 1.3f;
         }
     }
 
