@@ -7,7 +7,6 @@ using UnityEngine.Serialization;
 
 public class Dialogue : MonoBehaviour
 {
-    [FormerlySerializedAs("_font")] [SerializeField] private TMPro.TMP_FontAsset font;
     private NPCConversation _conversation;
 
     private ConversationManager _conversationManager;
@@ -29,7 +28,12 @@ public class Dialogue : MonoBehaviour
     {
         if (other.collider.CompareTag("Player"))
         {
-            _conversationManager.StartConversation(_conversation);
+            StartConvo();
         }
+    }
+
+    public void StartConvo()
+    {
+        _conversationManager.StartConversation(_conversation);
     }
 }
