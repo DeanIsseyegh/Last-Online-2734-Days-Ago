@@ -6,17 +6,20 @@ namespace Player
     {
         public float speed;
         public float fallBackSpeed = 10f;
+        public bool isControlsEnabled = true;
 
         private Animator animator;
 
         private bool isFallingBack;
         private Vector2 fallBackPoint;
         private Rigidbody2D _rb;
+        public Vector2 dir;
 
         private void Start()
         {
             animator = GetComponent<Animator>();
             _rb = GetComponent<Rigidbody2D>();
+            dir = Vector2.zero;
         }
 
 
@@ -24,36 +27,41 @@ namespace Player
         {
             if (isFallingBack)
             {
-                gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, fallBackPoint, fallBackSpeed * Time.deltaTime);
+                gameObject.transform.position = Vector2.MoveTowards(gameObject.transform.position, fallBackPoint,
+                    fallBackSpeed * Time.deltaTime);
                 float distanceToFallBackPoint = Vector2.Distance(gameObject.transform.position, fallBackPoint);
                 Debug.Log("Distance to fall back point is : " + distanceToFallBackPoint);
                 if (Vector2.Distance(gameObject.transform.position, fallBackPoint) <= 0.1f)
                 {
                     isFallingBack = false;
                 }
+
                 return;
             }
 
 
-            Vector2 dir = Vector2.zero;
-            if (Input.GetKey(KeyCode.A))
+            
+            if (isControlsEnabled)
             {
-                dir.x = -1;
-            }
-            else if (Input.GetKey(KeyCode.D))
-            {
-                dir.x = 1;
-            }
+                dir = Vector2.zero;
+                if (Input.GetKey(KeyCode.A))
+                {
+                    dir.x = -1;
+                }
+                else if (Input.GetKey(KeyCode.D))
+                {
+                    dir.x = 1;
+                }
 
-            if (Input.GetKey(KeyCode.W))
-            {
-                dir.y = 1;
+                if (Input.GetKey(KeyCode.W))
+                {
+                    dir.y = 1;
+                }
+                else if (Input.GetKey(KeyCode.S))
+                {
+                    dir.y = -1;
+                }
             }
-            else if (Input.GetKey(KeyCode.S))
-            {
-                dir.y = -1;
-            }
-
 
 
             dir.Normalize();
