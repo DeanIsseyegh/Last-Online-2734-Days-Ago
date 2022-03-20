@@ -6,7 +6,10 @@ using UnityEngine.UI;
 
 public class FishingMiniGame : MonoBehaviour
 {
-    [SerializeField] Transform topPivot, bottomPivot, fish;
+    [SerializeField]
+    Transform topPivot, bottomPivot;
+    public GameObject fish;
+    [SerializeField] GameObject[] fishes;
 
     float fishPosition, fishDestination;
 
@@ -29,10 +32,33 @@ public class FishingMiniGame : MonoBehaviour
     [SerializeField] Text failTimertext, winText, loseText;
     bool pause = false;
 
+    public int fishIndex = 0;
+
     private void Start()
     {
         Resize();
+        SpawnFish();
     }
+
+    private void SpawnFish()
+    {
+        if (fish != null)
+        {
+            Destroy(fish);
+        }
+        var positionBetweenPivots = bottomPivot.position + (topPivot.position - bottomPivot.position) * UnityEngine.Random.value;
+        fish = Instantiate(fishes[fishIndex], positionBetweenPivots, Quaternion.identity);
+        if (fishIndex == 0)
+        {
+            return;
+        }
+        else
+        {
+            timerMultiplier /= 2;
+            smoothMotion /= 2;
+        }
+    }
+
     void Resize()
     {
         Bounds b = hookSpriteRenderer.bounds;
@@ -77,6 +103,7 @@ public class FishingMiniGame : MonoBehaviour
             {
                 pause = true;
                 print("fail");
+                Invoke("Restart", 2f);
                 loseText.gameObject.SetActive(true);
             }
         }
@@ -84,7 +111,6 @@ public class FishingMiniGame : MonoBehaviour
         {
             Win();
             print("win");
-            winText.gameObject.SetActive(true);
         }
 
         hookProgress = Mathf.Clamp(hookProgress, 0f, 1f);//clamp the hook progress  
@@ -92,7 +118,30 @@ public class FishingMiniGame : MonoBehaviour
 
     private void Win()
     {
-        pause = true;
+        fishIndex++;
+        failTimer = 10f;
+        hookProgress = 0f;
+        if (fishIndex >= fishes.Length)
+        {
+            winText.gameObject.SetActive(true);
+            pause = true;
+            Invoke("Restart", 3f);
+            fishIndex = 0;
+        }
+        else
+        {
+            winText.gameObject.SetActive(false);
+            SpawnFish();
+        }
+    }
+
+    private void Restart()
+    {
+        failTimer = 10f;
+        pause = false;
+        hookProgress = 0f;
+        winText.gameObject.SetActive(false);
+        loseText.gameObject.SetActive(false);
     }
 
     void Hook()
@@ -104,6 +153,8 @@ public class FishingMiniGame : MonoBehaviour
         hookPullVelocity -= hookGravityPower * Time.deltaTime;//decrease the hook pull velocity
 
         hookPosition += hookPullVelocity;//move the hook
+
+
         hookPosition = Mathf.Clamp(hookPosition, hookSize / 2, 1 - hookSize / 2);//clamp the hook position
         hook.position = Vector3.Lerp(bottomPivot.position, topPivot.position, hookPosition);//move the hook
 
@@ -126,6 +177,6 @@ public class FishingMiniGame : MonoBehaviour
             fishDestination = UnityEngine.Random.value;//get a random destination
         }
         fishPosition = Mathf.SmoothDamp(fishPosition, fishDestination, ref fishSpeed, smoothMotion);//move the fish
-        fish.position = Vector3.Lerp(bottomPivot.position, topPivot.position, fishPosition);//move the fish
+        fish.transform.position = Vector3.Lerp(bottomPivot.position, topPivot.position, fishPosition);//move the fish
     }
 }
