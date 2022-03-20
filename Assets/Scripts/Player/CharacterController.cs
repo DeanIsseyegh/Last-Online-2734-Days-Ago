@@ -20,26 +20,26 @@ namespace Player
             if (Input.GetKey(KeyCode.A))
             {
                 dir.x = -1;
-                animator.SetInteger("Direction", 3);
             }
             else if (Input.GetKey(KeyCode.D))
             {
                 dir.x = 1;
-                animator.SetInteger("Direction", 2);
             }
 
             if (Input.GetKey(KeyCode.W))
             {
                 dir.y = 1;
-                animator.SetInteger("Direction", 1);
             }
             else if (Input.GetKey(KeyCode.S))
             {
                 dir.y = -1;
-                animator.SetInteger("Direction", 0);
             }
 
+
+
             dir.Normalize();
+            animator.SetFloat("Horizontal", dir.x);
+            animator.SetFloat("Vertical", dir.y);
             animator.SetBool("IsMoving", dir.magnitude > 0);
 
             GetComponent<Rigidbody2D>().velocity = speed * dir;
