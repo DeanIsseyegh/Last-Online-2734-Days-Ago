@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class FishingMiniGame : MonoBehaviour
 {
@@ -125,14 +126,19 @@ public class FishingMiniGame : MonoBehaviour
         {
             winText.gameObject.SetActive(true);
             pause = true;
-            Invoke("Restart", 3f);
-            fishIndex = 0;
+            StartCoroutine(GoBackToMainHub());
         }
         else
         {
             winText.gameObject.SetActive(false);
             SpawnFish();
         }
+    }
+
+    IEnumerator GoBackToMainHub()
+    {
+        yield return new WaitForSeconds(3f);
+        SceneManager.LoadScene("Main Hub");
     }
 
     private void Restart()
