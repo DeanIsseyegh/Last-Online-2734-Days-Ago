@@ -1151,6 +1151,69 @@ GameObject:
   - component: {fileID: 586541032}
   - component: {fileID: 586541031}
   - component: {fileID: 586541030}
+  - component: {fileID: 586541160}
+  - component: {fileID: 586541159}
+  - component: {fileID: 586541158}
+  - component: {fileID: 586541157}
+  - component: {fileID: 586541156}
+  - component: {fileID: 586541155}
+  - component: {fileID: 586541154}
+  - component: {fileID: 586541153}
+  - component: {fileID: 586541152}
+  - component: {fileID: 586541151}
+  - component: {fileID: 586541150}
+  - component: {fileID: 586541149}
+  - component: {fileID: 586541148}
+  - component: {fileID: 586541147}
+  - component: {fileID: 586541146}
+  - component: {fileID: 586541145}
+  - component: {fileID: 586541144}
+  - component: {fileID: 586541143}
+  - component: {fileID: 586541142}
+  - component: {fileID: 586541141}
+  - component: {fileID: 586541140}
+  - component: {fileID: 586541139}
+  - component: {fileID: 586541138}
+  - component: {fileID: 586541137}
+  - component: {fileID: 586541136}
+  - component: {fileID: 586541135}
+  - component: {fileID: 586541134}
+  - component: {fileID: 586541133}
+  - component: {fileID: 586541132}
+  - component: {fileID: 586541131}
+  - component: {fileID: 586541130}
+  - component: {fileID: 586541129}
+  - component: {fileID: 586541128}
+  - component: {fileID: 586541127}
+  - component: {fileID: 586541126}
+  - component: {fileID: 586541125}
+  - component: {fileID: 586541124}
+  - component: {fileID: 586541123}
+  - component: {fileID: 586541122}
+  - component: {fileID: 586541121}
+  - component: {fileID: 586541120}
+  - component: {fileID: 586541119}
+  - component: {fileID: 586541118}
+  - component: {fileID: 586541117}
+  - component: {fileID: 586541116}
+  - component: {fileID: 586541115}
+  - component: {fileID: 586541114}
+  - component: {fileID: 586541113}
+  - component: {fileID: 586541112}
+  - component: {fileID: 586541111}
+  - component: {fileID: 586541110}
+  - component: {fileID: 586541109}
+  - component: {fileID: 586541108}
+  - component: {fileID: 586541107}
+  - component: {fileID: 586541106}
+  - component: {fileID: 586541105}
+  - component: {fileID: 586541104}
+  - component: {fileID: 586541103}
+  - component: {fileID: 586541102}
+  - component: {fileID: 586541101}
+  - component: {fileID: 586541100}
+  - component: {fileID: 586541099}
+  - component: {fileID: 586541098}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -1189,7 +1252,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 68
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541031
 MonoBehaviour:
@@ -1246,7 +1309,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 65
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541034
 MonoBehaviour:
@@ -1322,7 +1385,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 61
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541038
 MonoBehaviour:
@@ -1360,7 +1423,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 59
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541040
 MonoBehaviour:
@@ -1379,7 +1442,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 58
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541041
 MonoBehaviour:
@@ -1398,7 +1461,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 57
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541042
 MonoBehaviour:
@@ -1455,7 +1518,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 54
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541045
 MonoBehaviour:
@@ -1512,7 +1575,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 51
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541048
 MonoBehaviour:
@@ -1569,7 +1632,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 48
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541051
 MonoBehaviour:
@@ -1588,7 +1651,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 47
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541052
 MonoBehaviour:
@@ -1607,7 +1670,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 46
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541053
 MonoBehaviour:
@@ -1664,7 +1727,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 43
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541056
 MonoBehaviour:
@@ -1683,7 +1746,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 42
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541057
 MonoBehaviour:
@@ -1740,7 +1803,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 39
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541060
 MonoBehaviour:
@@ -1778,7 +1841,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 37
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541062
 MonoBehaviour:
@@ -1797,7 +1860,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 36
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541063
 MonoBehaviour:
@@ -1854,7 +1917,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 33
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541066
 MonoBehaviour:
@@ -1911,7 +1974,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 30
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541069
 MonoBehaviour:
@@ -1949,7 +2012,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 28
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541071
 MonoBehaviour:
@@ -1968,7 +2031,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 27
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541072
 MonoBehaviour:
@@ -2006,7 +2069,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 25
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541074
 MonoBehaviour:
@@ -2063,7 +2126,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 22
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541077
 MonoBehaviour:
@@ -2082,7 +2145,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 21
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541078
 MonoBehaviour:
@@ -2139,7 +2202,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 18
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541081
 MonoBehaviour:
@@ -2196,7 +2259,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 15
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541084
 MonoBehaviour:
@@ -2234,7 +2297,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 13
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541086
 MonoBehaviour:
@@ -2291,7 +2354,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 10
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541089
 MonoBehaviour:
@@ -2348,7 +2411,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 7
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541092
 MonoBehaviour:
@@ -2405,7 +2468,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 4
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &586541095
 MonoBehaviour:
@@ -2461,6 +2524,1203 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 0
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 131
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 130
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 129
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 128
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 127
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 126
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 125
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 124
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 123
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 122
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 121
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 120
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 119
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 118
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 117
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 116
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 115
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 114
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 113
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 112
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 111
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 110
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 109
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 108
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 107
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 106
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 105
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541125
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 104
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 103
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 102
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 101
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 100
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 99
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 98
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 97
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 96
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 95
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 94
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 93
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 92
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 91
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541139
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 90
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 89
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 88
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 87
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 86
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 85
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 84
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 83
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 82
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 81
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 80
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 79
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 78
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 77
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 76
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 75
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 74
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 73
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &586541157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 72
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 71
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 70
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &586541160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586541028}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 69
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -2896,8 +4156,146 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 69
-  json: '{"Options":[],"Parameters":[],"SpeechNodes":[{"Connections":[],"EditorInfo":{"isRoot":true,"xPos":197,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":null,"parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":null,"OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+  CurrentIDCounter: 132
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":4}],"EditorInfo":{"isRoot":false,"xPos":770,"yPos":-2953},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    asked me to trade.","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":7}],"EditorInfo":{"isRoot":false,"xPos":1584,"yPos":-2960},"ID":3,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    did.","parentUIDs":[0],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":704,"yPos":-2603},"ID":5,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    Trade was 8 years old.","parentUIDs":[4,13],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":937,"yPos":-2723},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"Don''t
+    blame you. it was a long time ago.","parentUIDs":[4],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":1466,"yPos":-2697},"ID":8,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    asked me to trade.","parentUIDs":[7],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":false,"xPos":1832,"yPos":-2694},"ID":9,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    just Felt like it.","parentUIDs":[7],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":354,"yPos":-2315},"ID":11,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[10,21,27],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":28}],"EditorInfo":{"isRoot":false,"xPos":674,"yPos":-2319},"ID":12,"ParamActions":[],"TMPFontGUID":null,"Text":"You''re
+    not Legendary Warrior, are you?","parentUIDs":[10,21,25,27],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":1648,"yPos":-2318},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    don''t think i''m going to keep playing this game.","parentUIDs":[13],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":1297,"yPos":-2071},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"A
+    While? We''ve been Friends for 8 years.","parentUIDs":[15],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":22}],"EditorInfo":{"isRoot":false,"xPos":1784,"yPos":-2070},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    was a lot more fun before the expansions.","parentUIDs":[15],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":39}],"EditorInfo":{"isRoot":false,"xPos":265,"yPos":-2035},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello.","parentUIDs":[18],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":538,"yPos":-2046},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi.","parentUIDs":[18],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":1513,"yPos":-1803},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"What?","parentUIDs":[22],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":1822,"yPos":-1803},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"We''ve
+    been friends for 8 Years though.","parentUIDs":[22],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":1394,"yPos":-1533},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah,
+    this game is old isn''t it.","parentUIDs":[25],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":33}],"EditorInfo":{"isRoot":false,"xPos":704,"yPos":-1771},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Who''s
+    account was this... originally?","parentUIDs":[28],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":1214,"yPos":-1301},"ID":31,"ParamActions":[],"TMPFontGUID":null,"Text":"So,
+    this is your mom''s account?","parentUIDs":[30],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":37}],"EditorInfo":{"isRoot":false,"xPos":1464,"yPos":-1297},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"Ah,
+    i see. It makes sense now.","parentUIDs":[30],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":43}],"EditorInfo":{"isRoot":false,"xPos":543,"yPos":-1459},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"We
+    used to be friends on here.","parentUIDs":[33,36],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":46}],"EditorInfo":{"isRoot":false,"xPos":845,"yPos":-1460},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    used to play with your mom all the time.","parentUIDs":[33,36,47],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":47}],"EditorInfo":{"isRoot":false,"xPos":1518,"yPos":-1022},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    not remembering me.","parentUIDs":[37],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":48}],"EditorInfo":{"isRoot":false,"xPos":-27,"yPos":-1700},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"Sure
+    is.","parentUIDs":[39,42],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":51}],"EditorInfo":{"isRoot":false,"xPos":318,"yPos":-1706},"ID":41,"ParamActions":[],"TMPFontGUID":null,"Text":"Long
+    time no see.","parentUIDs":[39,42],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":68}],"EditorInfo":{"isRoot":false,"xPos":238,"yPos":-1108},"ID":44,"ParamActions":[],"TMPFontGUID":null,"Text":"Pretty
+    badass.","parentUIDs":[43,46],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":73}],"EditorInfo":{"isRoot":false,"xPos":518,"yPos":-1111},"ID":45,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    did her part.","parentUIDs":[43,46],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":58}],"EditorInfo":{"isRoot":false,"xPos":-357,"yPos":-1367},"ID":49,"ParamActions":[],"TMPFontGUID":null,"Text":"Me
+    Neither.","parentUIDs":[48],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":59}],"EditorInfo":{"isRoot":false,"xPos":-112,"yPos":-1364},"ID":50,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    surprised you still have the game installed.","parentUIDs":[48],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":54}],"EditorInfo":{"isRoot":false,"xPos":107,"yPos":-1378},"ID":52,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    just found it again","parentUIDs":[51],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":57}],"EditorInfo":{"isRoot":false,"xPos":321,"yPos":-1378},"ID":53,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+    is the first time i''ve been on in a while.","parentUIDs":[51,59],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":61}],"EditorInfo":{"isRoot":false,"xPos":-551,"yPos":-909},"ID":55,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    good.","parentUIDs":[54,57,58],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":65}],"EditorInfo":{"isRoot":false,"xPos":-92,"yPos":-892},"ID":56,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    could be better.","parentUIDs":[54,57,58],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-370,"yPos":-1160},"ID":60,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    just found it again.","parentUIDs":[59],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-798,"yPos":-660},"ID":62,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    trying.","parentUIDs":[61],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":91}],"EditorInfo":{"isRoot":false,"xPos":-517,"yPos":-660},"ID":63,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    am!","parentUIDs":[61],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":-259,"yPos":-658},"ID":64,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    had to stop.","parentUIDs":[61],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":49,"yPos":-664},"ID":66,"ParamActions":[],"TMPFontGUID":null,"Text":"Thank
+    you","parentUIDs":[65],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":303,"yPos":-665},"ID":67,"ParamActions":[],"TMPFontGUID":null,"Text":"They''re
+    starting to.","parentUIDs":[65],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":82}],"EditorInfo":{"isRoot":false,"xPos":547,"yPos":-644},"ID":69,"ParamActions":[],"TMPFontGUID":null,"Text":"Extremely,
+    she lead the team most of the time.","parentUIDs":[68,81],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":82}],"EditorInfo":{"isRoot":false,"xPos":754,"yPos":-643},"ID":70,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    was a master of DPS","parentUIDs":[68,81,91],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":85}],"EditorInfo":{"isRoot":false,"xPos":961,"yPos":-643},"ID":71,"ParamActions":[],"TMPFontGUID":null,"Text":"Incredible
+    Healer","parentUIDs":[68,81,91],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":88}],"EditorInfo":{"isRoot":false,"xPos":1167,"yPos":-633},"ID":72,"ParamActions":[],"TMPFontGUID":null,"Text":"A
+    Worthy Rival","parentUIDs":[68,81,91],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":77}],"EditorInfo":{"isRoot":false,"xPos":833,"yPos":-895},"ID":74,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    yeah, the worst","parentUIDs":[73],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":79}],"EditorInfo":{"isRoot":false,"xPos":1053,"yPos":-901},"ID":75,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    was mid tier haha","parentUIDs":[73],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":81}],"EditorInfo":{"isRoot":false,"xPos":1275,"yPos":-891},"ID":76,"ParamActions":[],"TMPFontGUID":null,"Text":"No,
+    she was good.","parentUIDs":[73],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":1393,"yPos":-536},"ID":78,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    sure you will","parentUIDs":[77],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":1626,"yPos":-538},"ID":80,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    am.","parentUIDs":[79],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":98}],"EditorInfo":{"isRoot":false,"xPos":77,"yPos":-311},"ID":83,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    was the reason we all stuck together.","parentUIDs":[82,101],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":101}],"EditorInfo":{"isRoot":false,"xPos":367,"yPos":-315},"ID":84,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    was the one telling us what to do!","parentUIDs":[82],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":93}],"EditorInfo":{"isRoot":false,"xPos":740,"yPos":-319},"ID":86,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    always saved us when we needed it most.","parentUIDs":[85],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":96}],"EditorInfo":{"isRoot":false,"xPos":973,"yPos":-321},"ID":87,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    was an integral part of the team.","parentUIDs":[85],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":103}],"EditorInfo":{"isRoot":false,"xPos":1223,"yPos":-268},"ID":89,"ParamActions":[],"TMPFontGUID":null,"Text":"Only
+    in a Knightly sense.","parentUIDs":[88],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":105}],"EditorInfo":{"isRoot":false,"xPos":1456,"yPos":-271},"ID":90,"ParamActions":[],"TMPFontGUID":null,"Text":"Only
+    cause we were both so good.","parentUIDs":[88],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":82}],"EditorInfo":{"isRoot":false,"xPos":-190,"yPos":-487},"ID":92,"ParamActions":[],"TMPFontGUID":null,"Text":"A
+    team leader","parentUIDs":[91],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":108}],"EditorInfo":{"isRoot":false,"xPos":400,"yPos":26},"ID":94,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah,
+    your mom was really good at it.","parentUIDs":[93,96],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":110}],"EditorInfo":{"isRoot":false,"xPos":685,"yPos":24},"ID":95,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah,
+    maybe now it''s your turn.","parentUIDs":[93,115],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":112}],"EditorInfo":{"isRoot":false,"xPos":963,"yPos":27},"ID":97,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
+    it''s time you go on some yourself.","parentUIDs":[96],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":113}],"EditorInfo":{"isRoot":false,"xPos":-303,"yPos":2},"ID":99,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    formed the guild herself.","parentUIDs":[98,103],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":114}],"EditorInfo":{"isRoot":false,"xPos":-44,"yPos":30},"ID":100,"ParamActions":[],"TMPFontGUID":null,"Text":"She
+    was the glue of the guild.","parentUIDs":[98,115],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":115}],"EditorInfo":{"isRoot":false,"xPos":114,"yPos":120},"ID":102,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe
+    it''s in her nature, leading you like she lead our guild.","parentUIDs":[101],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":116}],"EditorInfo":{"isRoot":false,"xPos":1231,"yPos":30},"ID":104,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    is pretty cool isn''t it.","parentUIDs":[103,113],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":117}],"EditorInfo":{"isRoot":false,"xPos":1460,"yPos":27},"ID":106,"ParamActions":[],"TMPFontGUID":null,"Text":"Maybe,
+    Can you live up to them though?","parentUIDs":[105],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":119}],"EditorInfo":{"isRoot":false,"xPos":1685,"yPos":28},"ID":107,"ParamActions":[],"TMPFontGUID":null,"Text":"You''ll
+    have to ask her about it.","parentUIDs":[105,113,114],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":125}],"EditorInfo":{"isRoot":false,"xPos":395,"yPos":459},"ID":109,"ParamActions":[],"TMPFontGUID":null,"Text":"Tell
+    her i said Hi.","parentUIDs":[108,114,119],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":123}],"EditorInfo":{"isRoot":false,"xPos":872,"yPos":449},"ID":111,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    your turn to have your own adventures.","parentUIDs":[110,112,116,117,125,130],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":121}],"EditorInfo":{"isRoot":false,"xPos":1509,"yPos":360},"ID":118,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    sword.","parentUIDs":[117],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":126}],"EditorInfo":{"isRoot":false,"xPos":1930,"yPos":337},"ID":120,"ParamActions":[],"TMPFontGUID":null,"Text":"Sure.
+    If you want.","parentUIDs":[119],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":130}],"EditorInfo":{"isRoot":false,"xPos":1480,"yPos":673},"ID":122,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    was, but It should be yours now.","parentUIDs":[121],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":128}],"EditorInfo":{"isRoot":false,"xPos":837,"yPos":760},"ID":124,"ParamActions":[],"TMPFontGUID":null,"Text":"Of
+    course!","parentUIDs":[123,125],"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":1996,"yPos":646},"ID":127,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[126],"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":131}],"EditorInfo":{"isRoot":false,"xPos":838,"yPos":1106},"ID":129,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
+    the Knightly Spirit!","parentUIDs":[128],"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":2},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":3}],"EditorInfo":{"isRoot":true,"xPos":1167,"yPos":-3062},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"You...
+    Gave me Darkuun''s Wrath?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":656,"yPos":-2774},"ID":4,"ParamActions":[],"TMPFontGUID":null,"Text":"I...
+    Don''t remember asking for it. I Still don''t remember you.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":8},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":9}],"EditorInfo":{"isRoot":false,"xPos":1624,"yPos":-2850},"ID":7,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
+    though?","parentUIDs":[3],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":11},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":530,"yPos":-2497},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"Wait...
+    It was 8 years old? Hang on let me check something out.","parentUIDs":[5],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":5},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":false,"xPos":1760,"yPos":-2476},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    didn''t have to do that. That Sword is extremely old, and possiblly very  \r\nvaluable
+    now that you''ve made it.\r","parentUIDs":[9],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":16},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":1575,"yPos":-2201},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
+    not? This game is fun! I''ve only been playing it for a while, there''s so much 
+    to do!","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":339,"yPos":-2183},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"Hello?","parentUIDs":[11],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":11},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":1076,"yPos":-2216},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"We''ve
+    been friends for... 8 years? \r\nHang on let me go check something out...\r","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":23},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":1638,"yPos":-1955},"ID":22,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    don''t know what it was like before the expansions, I only started playing last 
+    week.","parentUIDs":[17],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":1388,"yPos":-1658},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah,
+    i started playing last week. The Game''s really old but it''s neat to check out 
+    all this old stuff.","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":11},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":12}],"EditorInfo":{"isRoot":false,"xPos":1822,"yPos":-1667},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"Wait...
+    We''ve been friends for 8 years?\nHang on, let me go check something out.","parentUIDs":[24],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":718,"yPos":-1926},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    am Legendary Warrior, yeah. What do you mean?","parentUIDs":[12],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":31},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":1390,"yPos":-1433},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"Super,
+    i remember when my mom used to play this all the time while I was a kid. ","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":34},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":707,"yPos":-1628},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh!
+    I know what you mean. This account used to be my moms! She used to play all the 
+    time when i was a kid. She showed it to me all the time.","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":1215,"yPos":-1197},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Yeah!
+    She used to be really into the game.","parentUIDs":[31],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":1507,"yPos":-1198},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    does?","parentUIDs":[32],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":40},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":41}],"EditorInfo":{"isRoot":false,"xPos":51,"yPos":-1913},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"Wait...
+    Is this who i think it is?","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":40},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":41}],"EditorInfo":{"isRoot":false,"xPos":434,"yPos":-1908},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Is
+    this who i think it is?","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":44},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":45}],"EditorInfo":{"isRoot":false,"xPos":366,"yPos":-1273},"ID":43,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    really?! That''s awesome!  \r\nWhat was she like?\r","parentUIDs":[34],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":44},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":45}],"EditorInfo":{"isRoot":false,"xPos":862,"yPos":-1265},"ID":46,"ParamActions":[],"TMPFontGUID":null,"Text":"Really?
+    What was she like?","parentUIDs":[35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35}],"EditorInfo":{"isRoot":false,"xPos":1501,"yPos":-917},"ID":47,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh?
+    You one of my mom''s old friends from here?","parentUIDs":[38],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":49},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":50}],"EditorInfo":{"isRoot":false,"xPos":-222,"yPos":-1560},"ID":48,"ParamActions":[],"TMPFontGUID":null,"Text":"Holy
+    Cow! I can''t believe I would have ran into you again!","parentUIDs":[40],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":52},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":53}],"EditorInfo":{"isRoot":false,"xPos":327,"yPos":-1573},"ID":51,"ParamActions":[],"TMPFontGUID":null,"Text":"Seriously!!
+    I didn''t know you still played this Game!","parentUIDs":[41],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":55},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":-160,"yPos":-1161},"ID":54,"ParamActions":[],"TMPFontGUID":null,"Text":"Wow,
+    talk about a stroke of luck! I''ve always wondered what happened to all the 
+    people we used to play with. How have you been?","parentUIDs":[52],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":55},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":150,"yPos":-1239},"ID":57,"ParamActions":[],"TMPFontGUID":null,"Text":"After
+    you left, a bunch of us kept the community alive by playing, but none of us 
+    stuck around. I always wondered what happened to the guild. \r\nHow are you?\r","parentUIDs":[53],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":55},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":56}],"EditorInfo":{"isRoot":false,"xPos":-638,"yPos":-1271},"ID":58,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    have you been? \r\nThe community missed you!\r","parentUIDs":[49],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":60},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":53}],"EditorInfo":{"isRoot":false,"xPos":-284,"yPos":-1275},"ID":59,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    let my son reinstall it so he could give it a try. Maybe he''ll understand the
+    new  updates and all that Jazz. \r\nI''m surprised you came back!\r","parentUIDs":[50],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":62},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":63},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":64}],"EditorInfo":{"isRoot":false,"xPos":-567,"yPos":-787},"ID":61,"ParamActions":[],"TMPFontGUID":null,"Text":"Thats
+    wonderful to hear! You continue following your dreams? I remember you talking 
+    a lot about it between adventures!","parentUIDs":[55],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":66},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":67}],"EditorInfo":{"isRoot":false,"xPos":50,"yPos":-786},"ID":65,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh,
+    I''m sorry... I certainly hope things get better.","parentUIDs":[56],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":69},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":70},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":71},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":72}],"EditorInfo":{"isRoot":false,"xPos":514,"yPos":-773},"ID":68,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    badass?","parentUIDs":[44],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":74},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":75},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":76}],"EditorInfo":{"isRoot":false,"xPos":904,"yPos":-1074},"ID":73,"ParamActions":[],"TMPFontGUID":null,"Text":"Was
+    she bad?","parentUIDs":[45],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":78}],"EditorInfo":{"isRoot":false,"xPos":1421,"yPos":-669},"ID":77,"ParamActions":[],"TMPFontGUID":null,"Text":"LMAO,
+    maybe i''ll be better than her, now that i''ve got time to play","parentUIDs":[74],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":80}],"EditorInfo":{"isRoot":false,"xPos":1647,"yPos":-670},"ID":79,"ParamActions":[],"TMPFontGUID":null,"Text":"You''re
+    pulling my leg.","parentUIDs":[75],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":69},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":71},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":70},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":72}],"EditorInfo":{"isRoot":false,"xPos":842,"yPos":-820},"ID":81,"ParamActions":[],"TMPFontGUID":null,"Text":"How
+    good was she?","parentUIDs":[76],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":83},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":84}],"EditorInfo":{"isRoot":false,"xPos":346,"yPos":-472},"ID":82,"ParamActions":[],"TMPFontGUID":null,"Text":"Really?
+    That''s incredible!","parentUIDs":[69,70,92],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":86},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":87}],"EditorInfo":{"isRoot":false,"xPos":858,"yPos":-463},"ID":85,"ParamActions":[],"TMPFontGUID":null,"Text":"Really?
+    Sounds like she was a real team player.","parentUIDs":[71],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":89},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":90}],"EditorInfo":{"isRoot":false,"xPos":1300,"yPos":-424},"ID":88,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    guys were pretty close then?","parentUIDs":[72],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":70},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":71},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":72},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":92}],"EditorInfo":{"isRoot":false,"xPos":-530,"yPos":-556},"ID":91,"ParamActions":[],"TMPFontGUID":null,"Text":"So,
+    What was she REALLY LIKE?","parentUIDs":[63],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":94},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":95}],"EditorInfo":{"isRoot":false,"xPos":592,"yPos":-150},"ID":93,"ParamActions":[],"TMPFontGUID":null,"Text":"Wow.
+    Thats... Awesome. I don''t remember much of this game, but it''s cool to see
+    she  held a legacy here.","parentUIDs":[86],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":94},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":97}],"EditorInfo":{"isRoot":false,"xPos":880,"yPos":-158},"ID":96,"ParamActions":[],"TMPFontGUID":null,"Text":"That''s
+    awesome! Sounds like my mom went on some awesome adventures.","parentUIDs":[87],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":99},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":100}],"EditorInfo":{"isRoot":false,"xPos":-106,"yPos":-167},"ID":98,"ParamActions":[],"TMPFontGUID":null,"Text":"Thats...
+    Really cool.","parentUIDs":[83],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":102},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":83}],"EditorInfo":{"isRoot":false,"xPos":233,"yPos":-183},"ID":101,"ParamActions":[],"TMPFontGUID":null,"Text":"Sounds
+    like my mom! Haha!","parentUIDs":[84],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":104},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":99}],"EditorInfo":{"isRoot":false,"xPos":1249,"yPos":-131},"ID":103,"ParamActions":[],"TMPFontGUID":null,"Text":"Still
+    though, she made friends here, formed a community, that''s cool!","parentUIDs":[89],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":106},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":107}],"EditorInfo":{"isRoot":false,"xPos":1560,"yPos":-135},"ID":105,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    think you''re jealous of her skills haha!","parentUIDs":[90],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":109}],"EditorInfo":{"isRoot":false,"xPos":397,"yPos":295},"ID":108,"ParamActions":[],"TMPFontGUID":null,"Text":"Sounds
+    Awesome, I''ll have to tell her about the sword you gave me too!","parentUIDs":[94],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":711,"yPos":280},"ID":110,"ParamActions":[],"TMPFontGUID":null,"Text":"My
+    turn?","parentUIDs":[95],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":992,"yPos":157},"ID":112,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    do you mean?","parentUIDs":[97],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":107},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":104}],"EditorInfo":{"isRoot":false,"xPos":-321,"yPos":121},"ID":113,"ParamActions":[],"TMPFontGUID":null,"Text":"Thats
+    amazing!","parentUIDs":[99],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":107},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":109}],"EditorInfo":{"isRoot":false,"xPos":-182,"yPos":275},"ID":114,"ParamActions":[],"TMPFontGUID":null,"Text":"Really?
+    Thats.... Awesome, she did that all by herself.","parentUIDs":[100],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":95},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":100}],"EditorInfo":{"isRoot":false,"xPos":88,"yPos":429},"ID":115,"ParamActions":[],"TMPFontGUID":null,"Text":"Thats
+    a... good way of putting it. I didn''t think about it like that.","parentUIDs":[102],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":1319,"yPos":172},"ID":116,"ParamActions":[],"TMPFontGUID":null,"Text":"Sure,
+    is. Again, thank you for the sword. It''s really sweet of you to give it to 
+    me.","parentUIDs":[104],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":118},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":1618,"yPos":181},"ID":117,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    are you talking about? ","parentUIDs":[106],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":109},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":120}],"EditorInfo":{"isRoot":false,"xPos":1933,"yPos":160},"ID":119,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    should, you want me to get her.","parentUIDs":[107],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":122}],"EditorInfo":{"isRoot":false,"xPos":1511,"yPos":512},"ID":121,"ParamActions":[],"TMPFontGUID":null,"Text":"It''s
+    not for my mom?","parentUIDs":[118],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":124}],"EditorInfo":{"isRoot":false,"xPos":850,"yPos":615},"ID":123,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    man, you''re right! Now, with your sword, there''s a lot I can do! Thank you
+    again by the way!","parentUIDs":[111],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":111},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":124}],"EditorInfo":{"isRoot":false,"xPos":354,"yPos":645},"ID":125,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright!
+    I will! Thank you... for the sword by the way.","parentUIDs":[109],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":127}],"EditorInfo":{"isRoot":false,"xPos":1987,"yPos":507},"ID":126,"ParamActions":[],"TMPFontGUID":null,"Text":"Okay!
+    Hang on!","parentUIDs":[120],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":129}],"EditorInfo":{"isRoot":false,"xPos":818,"yPos":939},"ID":128,"ParamActions":[],"TMPFontGUID":null,"Text":"I''ll
+    take care of it, just like my mom took care of the guild! i''ll form my own 
+    guild, and go on my own adventures, carrying on my mom''s legacy.","parentUIDs":[124],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":111}],"EditorInfo":{"isRoot":false,"xPos":1439,"yPos":797},"ID":130,"ParamActions":[],"TMPFontGUID":null,"Text":"Why''s
+    that?","parentUIDs":[122],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":831,"yPos":1197},"ID":131,"ParamActions":[],"TMPFontGUID":null,"Text":"Alright!
+    I''ll tell my mom you said Hi!","parentUIDs":[129],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"LegendaryWarrior723","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: LegendaryWarrior723
   DefaultSprite: {fileID: 21300000, guid: 9e891f95fcd92264dba481536ba73208, type: 3}
@@ -2971,6 +4369,69 @@ MonoBehaviour:
   - {fileID: 586541032}
   - {fileID: 586541031}
   - {fileID: 586541030}
+  - {fileID: 586541160}
+  - {fileID: 586541159}
+  - {fileID: 586541158}
+  - {fileID: 586541157}
+  - {fileID: 586541156}
+  - {fileID: 586541155}
+  - {fileID: 586541154}
+  - {fileID: 586541153}
+  - {fileID: 586541152}
+  - {fileID: 586541151}
+  - {fileID: 586541150}
+  - {fileID: 586541149}
+  - {fileID: 586541148}
+  - {fileID: 586541147}
+  - {fileID: 586541146}
+  - {fileID: 586541145}
+  - {fileID: 586541144}
+  - {fileID: 586541143}
+  - {fileID: 586541142}
+  - {fileID: 586541141}
+  - {fileID: 586541140}
+  - {fileID: 586541139}
+  - {fileID: 586541138}
+  - {fileID: 586541137}
+  - {fileID: 586541136}
+  - {fileID: 586541135}
+  - {fileID: 586541134}
+  - {fileID: 586541133}
+  - {fileID: 586541132}
+  - {fileID: 586541131}
+  - {fileID: 586541130}
+  - {fileID: 586541129}
+  - {fileID: 586541128}
+  - {fileID: 586541127}
+  - {fileID: 586541126}
+  - {fileID: 586541125}
+  - {fileID: 586541124}
+  - {fileID: 586541123}
+  - {fileID: 586541122}
+  - {fileID: 586541121}
+  - {fileID: 586541120}
+  - {fileID: 586541119}
+  - {fileID: 586541118}
+  - {fileID: 586541117}
+  - {fileID: 586541116}
+  - {fileID: 586541115}
+  - {fileID: 586541114}
+  - {fileID: 586541113}
+  - {fileID: 586541112}
+  - {fileID: 586541111}
+  - {fileID: 586541110}
+  - {fileID: 586541109}
+  - {fileID: 586541108}
+  - {fileID: 586541107}
+  - {fileID: 586541106}
+  - {fileID: 586541105}
+  - {fileID: 586541104}
+  - {fileID: 586541103}
+  - {fileID: 586541102}
+  - {fileID: 586541101}
+  - {fileID: 586541100}
+  - {fileID: 586541099}
+  - {fileID: 586541098}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
