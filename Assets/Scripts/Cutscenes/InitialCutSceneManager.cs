@@ -39,11 +39,13 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     void Start()
     {
         _playerController.isControlsEnabled = false;
+        PlayerPrefs.SetInt("HasStarted", 1);
     }
 
     // Update is called once per frame
     void Update()
     {
+        // if (PlayerPrefs.GetInt("HasStarted") )
         if (_cutsceneState == CutsceneState.INITIAL_WALK)
         {
             initialWalkTimeSinceStarted += Time.deltaTime;
@@ -100,13 +102,12 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
 
         if (_cutsceneState == CutsceneState.DIALOGUE_STARTED)
         {
-            _playerController.isControlsEnabled = _canPlayerMove;
+            //Do nothing, wait for void OnDialogueEnd() to be called
         }
     }
 
     public void OnDialogueEnd()
     {
-        Debug.Log("ON DIALOGUE END HAPPENED");
         _canPlayerMove = true;
     }
     

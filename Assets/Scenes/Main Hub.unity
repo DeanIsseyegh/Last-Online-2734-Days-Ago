@@ -1286,7 +1286,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 64394716}
+    - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 64394716}
     - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
@@ -1296,7 +1306,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnDialogueEnd
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: OnDialogueEnd
       objectReference: {fileID: 0}
     - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
@@ -1306,7 +1326,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
         type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: InitialCutSceneManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
+        type: 3}
       propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 4287924053725398703, guid: 819bb16b9005ab0479fe5009f6d491f9,
+        type: 3}
+      propertyPath: Event.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents:
