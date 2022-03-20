@@ -5,7 +5,7 @@ using DialogueEditor;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class IntroDialogue : MonoBehaviour
+public class Dialogue : MonoBehaviour
 {
     [FormerlySerializedAs("_font")] [SerializeField] private TMPro.TMP_FontAsset font;
     private NPCConversation _conversation;
