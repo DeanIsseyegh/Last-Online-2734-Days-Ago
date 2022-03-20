@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SwitchFromTitleToDevScreen : MonoBehaviour
@@ -13,9 +14,8 @@ public class SwitchFromTitleToDevScreen : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
+    public void GoToMainHubScene()
     {
-        
+        SceneManager.LoadScene("Main Hub");
     }
 }
