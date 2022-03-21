@@ -7,6 +7,8 @@ public class Health : MonoBehaviour
     [SerializeField] private int bossMaxHealth = 3;
     [SerializeField] private BossHealthUi bossHealthUi;
     [SerializeField] private BossSceneManager bossSceneManager;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip damagedSound;
     private int currentHealth;
     void Start()
     {
@@ -17,6 +19,7 @@ public class Health : MonoBehaviour
 
     public void TakeDamage()
     {
+        audioSource.PlayOneShot(damagedSound);
         currentHealth--;
         bossHealthUi.SetHealth(currentHealth);
         if (currentHealth <= 0)

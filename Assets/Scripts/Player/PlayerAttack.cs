@@ -9,6 +9,8 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float attackDuration = 0.5f;
 
     [SerializeField] private float attackCooldown = 1.5f;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip attackSound;
 
     private bool _isAttacking;
     private float _currentAttackDuration;
@@ -44,6 +46,7 @@ public class PlayerAttack : MonoBehaviour
 
     private IEnumerator StartAttack()
     {
+        audioSource.PlayOneShot(attackSound);
         _animator.SetTrigger("AttackTrigger");
         playerWeapon.SetActive(true);
         _isAttacking = true;

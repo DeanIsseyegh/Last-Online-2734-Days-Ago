@@ -17,6 +17,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private GameObject transitionToFish;
     [SerializeField] private GameObject northPosition;
     [SerializeField] private GameObject eastPosition;
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip finalDialogueMusic;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -83,6 +85,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
                 legendaryWarriorEndingDialogue.StartConvo();
                 ConversationManager.OnConversationEnded += EndGame;
                 _playerController.isControlsEnabled = false;
+                audioSource.clip = finalDialogueMusic;
+                audioSource.Play();
             }
         }
 

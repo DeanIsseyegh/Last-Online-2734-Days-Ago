@@ -38,7 +38,7 @@ namespace DialogueEditor
         [SerializeField] public Sprite DefaultSprite;
         [SerializeField] public TMPro.TMP_FontAsset DefaultFont;
         [FormerlySerializedAs("Events")]
-        [SerializeField] private List<NodeEventHolder> NodeSerializedDataList;
+        [SerializeField] public List<NodeEventHolder> NodeSerializedDataList;
         [SerializeField] public TMPro.TMP_FontAsset ContinueFont;
         [SerializeField] public TMPro.TMP_FontAsset EndConversationFont;
 

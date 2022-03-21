@@ -8,6 +8,7 @@ using UnityEngine.Serialization;
 public class Dialogue : MonoBehaviour
 {
     public NPCConversation _conversation;
+    public Sprite sprite;
 
     private ConversationManager _conversationManager;
 
@@ -16,6 +17,15 @@ public class Dialogue : MonoBehaviour
     {
         _conversation = GetComponent<NPCConversation>();
         _conversationManager = ConversationManager.Instance;
+        Conversation conversation = _conversation.Deserialize();
+        List<NodeEventHolder> conversationNodeSerializedDataList = _conversation.NodeSerializedDataList;
+        conversationNodeSerializedDataList.ForEach(it =>
+            {
+                it.Icon = sprite;
+            }
+        );
+        // _conversation.GetNodeData(0).Icon = sprite;
+        // _conversation.GetNodeData()
     }
 
     private void OnCollisionEnter2D(Collision2D other)
