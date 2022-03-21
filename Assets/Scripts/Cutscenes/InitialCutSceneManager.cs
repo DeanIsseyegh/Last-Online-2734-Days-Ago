@@ -22,6 +22,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private GameObject legendaryWarrior;
     [SerializeField] private float legendaryWarriorSpeed = 3f;
     [SerializeField] private GameObject endPopup;
+    [SerializeField] private GameObject dialogueInstructions;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -150,6 +151,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
             if (_hasClickedOnlineFriend)
             {
                 friendsArea.SetActive(false);
+                dialogueInstructions.SetActive(true);
                 legendaryWarriorFirstDialogue.StartConvo();
                 _cutsceneState = CutsceneState.DIALOGUE_STARTED;
             }
@@ -157,8 +159,6 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
 
         if (_cutsceneState == CutsceneState.DIALOGUE_STARTED)
         {
-            //End of cutscene should have triggered this, but due to bug with dialogue editor its not possible
-            _canPlayerMove = true;
             transitionToFish.SetActive(true);
             ConversationManager.OnConversationEnded += EnablePlayerControls;
         }
@@ -179,6 +179,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         _canPlayerMove = true;
         _playerController.isControlsEnabled = true;
         ConversationManager.OnConversationEnded -= EnablePlayerControls;
+        dialogueInstructions.SetActive(false);
     }
 
     public void OnDialogueEnd()
