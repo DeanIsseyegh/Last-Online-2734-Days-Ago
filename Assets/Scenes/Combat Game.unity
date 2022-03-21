@@ -1754,7 +1754,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4634899d67fb30a4dae5764c57e1882e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  projectile: {fileID: 5786626163883837026, guid: 0cfde807ad2886a4093d765504e00ea7,
+  projectile1: {fileID: 5786626163883837026, guid: e69a9e2a2965ae044a1ff6b7b5d77d02,
+    type: 3}
+  projectile2: {fileID: 5786626163883837026, guid: 9f400163888106b408687ead4f66890f,
+    type: 3}
+  projectile3: {fileID: 5786626163883837026, guid: d497fd9c9cbab11479018851e5228398,
     type: 3}
   topThrowPoint: {fileID: 1561111764}
   bottomThrowPoint: {fileID: 1638963848}

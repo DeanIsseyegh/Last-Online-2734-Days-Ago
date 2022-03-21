@@ -69,8 +69,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
             {
                 _hasFinalDialogueStarted = true;
                 legendaryWarriorEndingDialogue.StartConvo();
-                _playerController.isControlsEnabled = false;
                 ConversationManager.OnConversationEnded += EndGame;
+                _playerController.isControlsEnabled = false;
             }
         }
 
@@ -143,6 +143,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     private void EndGame()
     {
         SceneManager.LoadScene("EndScene");
+        ConversationManager.OnConversationEnded -= EndGame;
     }
     
     
@@ -150,6 +151,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     {
         _canPlayerMove = true;
         _playerController.isControlsEnabled = true;
+        ConversationManager.OnConversationEnded -= EnablePlayerControls;
     }
 
     public void OnDialogueEnd()

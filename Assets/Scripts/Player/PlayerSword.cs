@@ -18,7 +18,7 @@ public class PlayerSword : MonoBehaviour
         {
             other.collider.GetComponent<Health>().TakeDamage();
             playerController.MoveBackTo(startPoint.transform.position);
-            other.collider.GetComponent<BossAi>().IncreaseThrowFrequency();
+            other.collider.GetComponent<BossAi>().IncreaseBossPhase();
         }
     }
 
