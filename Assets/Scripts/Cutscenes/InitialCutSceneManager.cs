@@ -35,6 +35,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     private int _playerPrefsHasStarted;
     private bool _hasFinalDialogueStarted;
     private bool _shouldPlayInitalCutscene;
+    private bool _hasIntroDialogueStarted;
 
     enum CutsceneState
     {
@@ -159,8 +160,12 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
 
         if (_cutsceneState == CutsceneState.DIALOGUE_STARTED)
         {
-            transitionToFish.SetActive(true);
-            ConversationManager.OnConversationEnded += EnablePlayerControls;
+            if (!_hasIntroDialogueStarted)
+            {
+                transitionToFish.SetActive(true);
+                ConversationManager.OnConversationEnded += EnablePlayerControls;
+                _hasIntroDialogueStarted = true;
+            }
         }
     }
     
