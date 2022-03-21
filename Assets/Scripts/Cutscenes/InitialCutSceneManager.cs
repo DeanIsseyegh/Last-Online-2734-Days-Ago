@@ -19,6 +19,9 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private GameObject eastPosition;
     [SerializeField] private AudioSource audioSource;
     [SerializeField] private AudioClip finalDialogueMusic;
+    [SerializeField] private GameObject legendaryWarrior;
+    [SerializeField] private float legendaryWarriorSpeed = 3f;
+    [SerializeField] private GameObject endPopup;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -81,12 +84,18 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         {
             if (!_hasFinalDialogueStarted)
             {
-                _hasFinalDialogueStarted = true;
-                legendaryWarriorEndingDialogue.StartConvo();
-                ConversationManager.OnConversationEnded += EndGame;
-                _playerController.isControlsEnabled = false;
-                audioSource.clip = finalDialogueMusic;
-                audioSource.Play();
+                legendaryWarrior.SetActive(true);
+                legendaryWarrior.transform.position += (Vector3) Vector2.MoveTowards(legendaryWarrior.transform.position, player.transform.position, 100).normalized * Time.deltaTime * legendaryWarriorSpeed;
+                if (Vector2.Distance(player.transform.position, legendaryWarrior.transform.position) <= 2f)
+                {
+                    _hasFinalDialogueStarted = true;
+                    legendaryWarriorEndingDialogue.StartConvo();
+                    ConversationManager.OnConversationEnded += EndGame;
+                    _playerController.isControlsEnabled = false;
+                    _playerController.dir = Vector2.zero;
+                    audioSource.clip = finalDialogueMusic;
+                    audioSource.Play();
+                }
             }
         }
 
@@ -158,7 +167,10 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     
     private void EndGame()
     {
-        SceneManager.LoadScene("EndScene");
+        // SceneManager.LoadScene("EndScene");
+        endPopup.SetActive(true);
+        Destroy(player);
+        Destroy(legendaryWarrior);
         ConversationManager.OnConversationEnded -= EndGame;
     }
     

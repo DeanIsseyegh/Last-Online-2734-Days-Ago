@@ -1,14 +1,9 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
 public class SwitchFromTitleToDevScreen : MonoBehaviour
 {
-    private bool shouldListenForTitleContinue;
+    private bool _shouldListenForTitleContinue;
     private Animator _animator;
 
     private void Awake()
@@ -18,7 +13,7 @@ public class SwitchFromTitleToDevScreen : MonoBehaviour
 
     private void Update()
     {
-        if (shouldListenForTitleContinue)
+        if (_shouldListenForTitleContinue)
         {
             if (Input.GetKeyDown(KeyCode.Space))
             {
@@ -35,6 +30,6 @@ public class SwitchFromTitleToDevScreen : MonoBehaviour
     public void PressSpaceToContinue()
     {
         Debug.Log("Press Space To Continue");
-        shouldListenForTitleContinue = true;
+        _shouldListenForTitleContinue = true;
     }
 }
