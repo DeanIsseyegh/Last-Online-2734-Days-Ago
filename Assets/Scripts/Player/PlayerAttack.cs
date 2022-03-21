@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Player;
 using UnityEngine;
 
 public class PlayerAttack : MonoBehaviour
@@ -15,10 +16,12 @@ public class PlayerAttack : MonoBehaviour
     public bool isControlsEnabled;
 
     private Animator _animator;
+    private PlayerController _playerController;
 
     private void Awake()
     {
         _animator = GetComponent<Animator>();
+        _playerController = GetComponent<PlayerController>();
     }
     
     // Update is called once per frame
@@ -44,7 +47,10 @@ public class PlayerAttack : MonoBehaviour
         _animator.SetTrigger("AttackTrigger");
         playerWeapon.SetActive(true);
         _isAttacking = true;
+        _playerController.isControlsEnabled = false;
+        _playerController.dir = Vector2.zero;
         yield return new WaitForSeconds(attackDuration);
+        _playerController.isControlsEnabled = true;
         playerWeapon.SetActive(false);
         _isAttacking = false;
         _timeSinceLastAttack = 0;
