@@ -24,6 +24,10 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private GameObject endPopup;
     [SerializeField] private GameObject dialogueInstructions;
     [SerializeField] private GameObject blackEndingScreen;
+    [SerializeField] private Image tradeButtonOverlay;
+    [SerializeField] private GameObject tradeButton;
+    [SerializeField] private GameObject tradeButtonNotification;
+    [SerializeField] private GameObject tradeMenu;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -37,6 +41,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     private bool _hasFinalDialogueStarted;
     private bool _shouldPlayInitalCutscene;
     private bool _hasIntroDialogueStarted;
+    private bool _hasLegendaryTradeSwordStarted;
+    private bool _hasFinishedTrade;
 
     enum CutsceneState
     {
@@ -44,8 +50,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         SUBSCRIPTION_POPUP,
         FRIENDS_ICON_NOTIFICATION_FLASH,
         ON_FRIENDS_LIST,
-        DIALOGUE_STARTED,
-        BLACK_END_FADE_SCREEN
+        DIALOGUE_STARTED
+        
     }
 
     private void Awake()
@@ -86,8 +92,18 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
 
         if (PlayerPrefs.GetInt("HasWonFishing") >= 1 && PlayerPrefs.GetInt("HasWonCombat") >= 1 && PlayerPrefs.GetInt("HasStarted") >= 1)
         {
-            if (!_hasFinalDialogueStarted)
+            if (!_hasLegendaryTradeSwordStarted)
             {
+                _hasLegendaryTradeSwordStarted = true;
+                _playerController.isControlsEnabled = false;
+                _playerController.dir = Vector2.zero;
+                tradeButtonOverlay.color = new Color(0, 255, 0, 0.3f); 
+                tradeButton.SetActive(true);
+                tradeButtonNotification.SetActive(true);
+                
+            } else if (_hasFinishedTrade && !_hasFinalDialogueStarted)
+            {
+                tradeMenu.SetActive(false);
                 legendaryWarrior.SetActive(true);
                 legendaryWarrior.transform.position += (Vector3) Vector2.MoveTowards(legendaryWarrior.transform.position, player.transform.position, 100).normalized * Time.deltaTime * legendaryWarriorSpeed;
                 if (Vector2.Distance(player.transform.position, legendaryWarrior.transform.position) <= 2f)
@@ -170,10 +186,6 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
             }
         }
 
-        if (_cutsceneState == CutsceneState.BLACK_END_FADE_SCREEN)
-        {
-            blackEndingScreen.SetActive(true);
-        }
     }
     
     
@@ -183,7 +195,6 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         Destroy(player);
         Destroy(legendaryWarrior);
         ConversationManager.OnConversationEnded -= EndGame;
-        _cutsceneState = CutsceneState.BLACK_END_FADE_SCREEN;
         blackEndingScreen.SetActive(true);
     }
     
@@ -210,6 +221,11 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     public void OnFriendsIconClick()
     {
         _hasClickedFriendsIcon = true;
+    }
+
+    public void OnFinishedTrade()
+    {
+        _hasFinishedTrade = true;
     }
 
     public void OnPointerClick(PointerEventData eventData)
