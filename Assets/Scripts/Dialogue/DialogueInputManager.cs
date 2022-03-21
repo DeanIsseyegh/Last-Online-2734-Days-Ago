@@ -1,14 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 namespace DialogueEditor
 {
-    public class ExampleInputManager : MonoBehaviour
+    public class DialogueInputManager : MonoBehaviour
     {
-        public KeyCode m_UpKey;
-        public KeyCode m_DownKey;
-        public KeyCode m_SelectKey;
+        public KeyCode[] m_UpKey;
+        public KeyCode[] m_DownKey;
+        public KeyCode[] m_SelectKey;
 
         private void Update()
         {
@@ -22,11 +23,11 @@ namespace DialogueEditor
         {
             if (ConversationManager.Instance.IsConversationActive)
             {
-                if (Input.GetKeyDown(m_UpKey))
+                if (m_UpKey.Any(Input.GetKeyDown))
                     ConversationManager.Instance.SelectPreviousOption();
-                else if (Input.GetKeyDown(m_DownKey))
+                else if (m_DownKey.Any(Input.GetKeyDown))
                     ConversationManager.Instance.SelectNextOption();
-                else if (Input.GetKeyDown(m_SelectKey))
+                else if (m_SelectKey.Any(Input.GetKeyDown))
                     ConversationManager.Instance.PressSelectedOption();
             }
         }

@@ -12,25 +12,18 @@ public class FishingSceneManager : MonoBehaviour
     [SerializeField] private float gameStartsAfterXSeconds = 10f;
     [SerializeField] private GameObject fishingGame;
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (!_hasStartDialogueBeenShown)
         {
             _hasStartDialogueBeenShown = true;
             ConversationManager.Instance.StartConversation(startDialogue);
-            StartCoroutine(StartFishingGameAfterXSeconds());
+            ConversationManager.OnConversationEnded += StartFishingGameAfterXSeconds;
         }
     }
 
-    private IEnumerator StartFishingGameAfterXSeconds()
+    private void StartFishingGameAfterXSeconds()
     {
-        yield return new WaitForSeconds(gameStartsAfterXSeconds);
         fishingGame.SetActive(true);
     }
 
@@ -38,12 +31,11 @@ public class FishingSceneManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("HasWonFishing", 1);
         ConversationManager.Instance.StartConversation(endDialogue);
-        StartCoroutine(GoBackToMainHub());
+        ConversationManager.OnConversationEnded += GoBackToMainHub;
     }
     
-    IEnumerator GoBackToMainHub()
+    void GoBackToMainHub()
     {
-        yield return new WaitForSeconds(3f);
         SceneManager.LoadScene("Main Hub");
     }
 }

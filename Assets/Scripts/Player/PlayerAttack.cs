@@ -12,12 +12,15 @@ public class PlayerAttack : MonoBehaviour
     private bool _isAttacking;
     private float _currentAttackDuration;
     private float _timeSinceLastAttack = 999f;
+    public bool isControlsEnabled;
 
     // Update is called once per frame
     void Update()
     {
-        _timeSinceLastAttack += Time.deltaTime;
+        if (!isControlsEnabled) return;
 
+        _timeSinceLastAttack += Time.deltaTime;
+        
         if (_isAttacking) return;
         
         if (_timeSinceLastAttack > attackCooldown)

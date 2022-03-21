@@ -42,11 +42,6 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         _playerController = player.GetComponent<PlayerController>();
     }
 
-    private void ConversationEnd()
-    {
-        SceneManager.LoadScene("EndScene");
-    }
-
     // Start is called before the first frame update
     void Start()
     {
@@ -75,7 +70,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
                 _hasFinalDialogueStarted = true;
                 legendaryWarriorEndingDialogue.StartConvo();
                 _playerController.isControlsEnabled = false;
-                ConversationManager.OnConversationEnded += ConversationEnd;
+                ConversationManager.OnConversationEnded += EndGame;
             }
         }
 
@@ -139,9 +134,22 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         {
             //End of cutscene should have triggered this, but due to bug with dialogue editor its not possible
             _canPlayerMove = true;
-            _playerController.isControlsEnabled = true;
             transitionToFish.SetActive(true);
+            ConversationManager.OnConversationEnded += EnablePlayerControls;
         }
+    }
+    
+    
+    private void EndGame()
+    {
+        SceneManager.LoadScene("EndScene");
+    }
+    
+    
+    private void EnablePlayerControls()
+    {
+        _canPlayerMove = true;
+        _playerController.isControlsEnabled = true;
     }
 
     public void OnDialogueEnd()

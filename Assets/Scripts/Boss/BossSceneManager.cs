@@ -2,30 +2,41 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using DialogueEditor;
+using Player;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class BossSceneManager : MonoBehaviour
 {
-    [SerializeField] private GameObject winTitle;
     [SerializeField] private NPCConversation startingDialogue;
     [SerializeField] private NPCConversation endingDialgoue;
     [SerializeField] private GameObject mainHubTransition;
+    [SerializeField] private BossAi bossAi;
+    [SerializeField] private PlayerController playerController;
+    [SerializeField] private PlayerAttack playerAttack;
     
     private bool _hasStartedStartingDialgoue;
 
-    private void Start()
-    {
-        
-    }
+
 
     public void Update()
     {
         if (!_hasStartedStartingDialgoue)
         {
+            playerController.isControlsEnabled = false;
+            playerAttack.isControlsEnabled = false;
             _hasStartedStartingDialgoue = true;
             ConversationManager.Instance.StartConversation(startingDialogue);
+            ConversationManager.OnConversationEnded += StartBossFight;
         }
+    }
+
+    private void StartBossFight()
+    {
+        bossAi.enabled = true;
+        playerController.isControlsEnabled = true;
+        playerAttack.isControlsEnabled = true;
+        ConversationManager.OnConversationEnded -= StartBossFight;
     }
 
     public void WinBossFight()
@@ -38,16 +49,20 @@ public class BossSceneManager : MonoBehaviour
         GameObject boss = GameObject.FindWithTag("Boss");
         Destroy(boss);
         
-        // winTitle.SetActive(true);
+        playerController.isControlsEnabled = false;
+        playerController.dir = Vector2.zero;
+        playerAttack.isControlsEnabled = false;
+        
         ConversationManager.Instance.StartConversation(endingDialgoue);
+        
+        ConversationManager.OnConversationEnded += GoBackToMainHub;
         mainHubTransition.SetActive(true);
         PlayerPrefs.SetInt("HasWonCombat", 1);
-        StartCoroutine(GoBackToMainHub());
     }
     
-    IEnumerator GoBackToMainHub()
+    private void GoBackToMainHub()
     {
-        yield return new WaitForSeconds(3f);
+        ConversationManager.OnConversationEnded -= GoBackToMainHub;
         SceneManager.LoadScene("Main Hub");
     }
 }
