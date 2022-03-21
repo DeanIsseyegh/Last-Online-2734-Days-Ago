@@ -14,6 +14,13 @@ public class PlayerAttack : MonoBehaviour
     private float _timeSinceLastAttack = 999f;
     public bool isControlsEnabled;
 
+    private Animator _animator;
+
+    private void Awake()
+    {
+        _animator = GetComponent<Animator>();
+    }
+    
     // Update is called once per frame
     void Update()
     {
@@ -34,6 +41,7 @@ public class PlayerAttack : MonoBehaviour
 
     private IEnumerator StartAttack()
     {
+        _animator.SetTrigger("AttackTrigger");
         playerWeapon.SetActive(true);
         _isAttacking = true;
         yield return new WaitForSeconds(attackDuration);

@@ -62,6 +62,7 @@ public class BossSceneManager : MonoBehaviour
     
     private void GoBackToMainHub()
     {
+        PlayerPrefs.SetString("MainHubExitPos", "East");
         ConversationManager.OnConversationEnded -= GoBackToMainHub;
         SceneManager.LoadScene("Main Hub");
     }

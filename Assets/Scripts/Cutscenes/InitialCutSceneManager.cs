@@ -15,6 +15,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private Dialogue legendaryWarriorFirstDialogue;
     [SerializeField] private Dialogue legendaryWarriorEndingDialogue;
     [SerializeField] private GameObject transitionToFish;
+    [SerializeField] private GameObject northPosition;
+    [SerializeField] private GameObject eastPosition;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -63,6 +65,16 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     // Update is called once per frame
     void Update()
     {
+        if (PlayerPrefs.GetString("MainHubExitPos").Equals("North"))
+        {
+            _playerController.gameObject.transform.position = northPosition.transform.position;
+        } else if (PlayerPrefs.GetString("MainHubExitPos").Equals("East"))
+        {
+            _playerController.gameObject.transform.position = eastPosition.transform.position;
+        }
+        PlayerPrefs.SetString("MainHubExitPos", "");
+
+
         if (PlayerPrefs.GetInt("HasWonFishing") >= 1 && PlayerPrefs.GetInt("HasWonCombat") >= 1 && PlayerPrefs.GetInt("HasStarted") >= 1)
         {
             if (!_hasFinalDialogueStarted)

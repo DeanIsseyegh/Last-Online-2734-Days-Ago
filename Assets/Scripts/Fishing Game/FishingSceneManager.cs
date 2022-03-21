@@ -9,7 +9,6 @@ public class FishingSceneManager : MonoBehaviour
     [SerializeField] private NPCConversation startDialogue;
     [SerializeField] private NPCConversation endDialogue;
     private bool _hasStartDialogueBeenShown;
-    [SerializeField] private float gameStartsAfterXSeconds = 10f;
     [SerializeField] private GameObject fishingGame;
 
     void Update()
@@ -37,6 +36,7 @@ public class FishingSceneManager : MonoBehaviour
     
     void GoBackToMainHub()
     {
+        PlayerPrefs.SetString("MainHubExitPos", "North");
         ConversationManager.OnConversationEnded -= GoBackToMainHub;
         SceneManager.LoadScene("Main Hub");
     }
