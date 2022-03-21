@@ -167,7 +167,6 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     
     private void EndGame()
     {
-        // SceneManager.LoadScene("EndScene");
         endPopup.SetActive(true);
         Destroy(player);
         Destroy(legendaryWarrior);
