@@ -324,6 +324,7 @@ MonoBehaviour:
   legendaryWarriorSpeed: 3
   endPopup: {fileID: 213162050}
   dialogueInstructions: {fileID: 8212551527814572120}
+  blackEndingScreen: {fileID: 1460460968}
 --- !u!4 &64394717
 Transform:
   m_ObjectHideFlags: 0
@@ -1864,6 +1865,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6761e4d267f684bbc3800b0a3c9ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp1: {fileID: 0}
+  hp2: {fileID: 0}
+  hp3: {fileID: 0}
 --- !u!114 &525472917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7314,6 +7318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6761e4d267f684bbc3800b0a3c9ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp1: {fileID: 0}
+  hp2: {fileID: 0}
+  hp3: {fileID: 0}
 --- !u!114 &1103952767
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8397,6 +8404,7 @@ RectTransform:
   - {fileID: 1991864631}
   - {fileID: 8212551527814572121}
   - {fileID: 1469536190}
+  - {fileID: 1460460971}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8537,6 +8545,101 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1422517710}
   m_CullTransparentMesh: 1
+--- !u!1 &1460460968
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460460971}
+  - component: {fileID: 1460460970}
+  - component: {fileID: 1460460969}
+  - component: {fileID: 1460460972}
+  m_Layer: 5
+  m_Name: BlackScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1460460969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460460968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1460460970
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460460968}
+  m_CullTransparentMesh: 1
+--- !u!224 &1460460971
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460460968}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 99, y: 99, z: 99}
+  m_Children: []
+  m_Father: {fileID: 1413944201}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1460460972
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460460968}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: a0e70149d116cd54d9f2c0d6019f1c5f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1469536189
 GameObject:
   m_ObjectHideFlags: 0
@@ -9746,6 +9849,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6761e4d267f684bbc3800b0a3c9ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp1: {fileID: 0}
+  hp2: {fileID: 0}
+  hp3: {fileID: 0}
 --- !u!114 &1957722892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10854,6 +10960,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d6761e4d267f684bbc3800b0a3c9ef3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp1: {fileID: 0}
+  hp2: {fileID: 0}
+  hp3: {fileID: 0}
 --- !u!1001 &8398190123268868136
 PrefabInstance:
   m_ObjectHideFlags: 0

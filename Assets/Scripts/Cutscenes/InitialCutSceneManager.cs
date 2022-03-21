@@ -23,6 +23,7 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
     [SerializeField] private float legendaryWarriorSpeed = 3f;
     [SerializeField] private GameObject endPopup;
     [SerializeField] private GameObject dialogueInstructions;
+    [SerializeField] private GameObject blackEndingScreen;
 
     private PlayerController _playerController;
     private CutsceneState _cutsceneState = CutsceneState.INITIAL_WALK;
@@ -43,7 +44,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         SUBSCRIPTION_POPUP,
         FRIENDS_ICON_NOTIFICATION_FLASH,
         ON_FRIENDS_LIST,
-        DIALOGUE_STARTED
+        DIALOGUE_STARTED,
+        BLACK_END_FADE_SCREEN
     }
 
     private void Awake()
@@ -167,6 +169,11 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
                 _hasIntroDialogueStarted = true;
             }
         }
+
+        if (_cutsceneState == CutsceneState.BLACK_END_FADE_SCREEN)
+        {
+            blackEndingScreen.SetActive(true);
+        }
     }
     
     
@@ -176,6 +183,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         Destroy(player);
         Destroy(legendaryWarrior);
         ConversationManager.OnConversationEnded -= EndGame;
+        _cutsceneState = CutsceneState.BLACK_END_FADE_SCREEN;
+        blackEndingScreen.SetActive(true);
     }
     
     
