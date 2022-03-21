@@ -24,6 +24,7 @@ public class FishingSceneManager : MonoBehaviour
 
     private void StartFishingGameAfterXSeconds()
     {
+        ConversationManager.OnConversationEnded -= StartFishingGameAfterXSeconds;
         fishingGame.SetActive(true);
     }
 
@@ -36,6 +37,7 @@ public class FishingSceneManager : MonoBehaviour
     
     void GoBackToMainHub()
     {
+        ConversationManager.OnConversationEnded -= GoBackToMainHub;
         SceneManager.LoadScene("Main Hub");
     }
 }
