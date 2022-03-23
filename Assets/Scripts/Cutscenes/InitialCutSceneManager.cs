@@ -124,8 +124,8 @@ public class InitialCutSceneManager : MonoBehaviour, IPointerClickHandler
         if (_cutsceneState == CutsceneState.INITIAL_WALK)
         {
             initialWalkTimeSinceStarted += Time.deltaTime;
-            if (Vector2.Distance(player.transform.position, firstWalkToPoint.transform.position) > 0.1f ||
-                initialWalkTimeSinceStarted >= 1.5f)
+            if (Vector2.Distance(player.transform.position, firstWalkToPoint.transform.position) > 0.1f &&
+                initialWalkTimeSinceStarted < 2f) //incase game lags and player goes past walk point
             {
                 _playerController.dir = Vector2.right * Time.deltaTime;
             }
